@@ -19,7 +19,7 @@ app.use(express.static(staticpath));
 
 //connecting db
 
-mongoose.connect("mongodb+srv://Chandra:poonamsinha@cluster0.2qvav.mongodb.net/test?retryWrites=true&w=majority" || "mongodb://localhost/playground",{
+mongoose.connect("mongodb://localhost/playground",{
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
