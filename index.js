@@ -7,7 +7,7 @@ const bodyParser = require('body-parser');//for parsing the recived string
 
 const path = require('path');//for getting the location of directory
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8081;
 const uri = process.env.MONGODB_URI;
 //enabling parser methodogies
 app.use(bodyParser.urlencoded({ extended: true}));
